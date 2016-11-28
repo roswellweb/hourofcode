@@ -8,12 +8,12 @@
         <title>{% if page.title %}{{ page.title | escape }} &ndash; {{site.title | escape}}{% else %}{{ site.title | escape }} &ndash; {{site.short | escape}}{% endif %}</title>
         <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
         
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif|Vast+Shadow">
         <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?v={{ site.time | date_to_xmlschema }}">
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-        <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-        <link rel="apple-itouch-icon" href="{{ "/icon.png" | prepend: site.baseurl }}">
-        <link rel="icon" type="image/png" href="{{ "/icon.png" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">  
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-itouch-icon" href="/icon.png">
+        <link rel="icon" type="image/png" href="/icon.png">
         <meta name="theme-color" content="#ae0020">
     </head>
     <body>
