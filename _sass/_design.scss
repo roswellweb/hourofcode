@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-family: 'Droid Serif', serif;
 }
@@ -39,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     ul {
         list-style: none;
         margin: 0;
+        margin-top: 1rem;
     }
     li {
         display: inline-block;
@@ -52,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     a {
         color: #fff;
-        padding: 1.5rem 1rem;
+        padding:  0.5rem 1rem;
         text-decoration: none;
         &:hover, &:focus, &:active {
             color: rgb(170, 170, 170);
