@@ -6,3 +6,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Vast Shadow', cursive;
 }
 
+.RHS-navigation {
+    text-align: center;
+    ul {
+        list-style: none;
+        margin: 0;
+    }
+    li {
+        display: inline-block;
+        padding: 1rem;
+    }
+}
