@@ -52,10 +52,10 @@ h1, h2, h3, h4, h5, h6 {
     }
     a {
         color: #fff;
-        padding:  0.5rem 1rem;
+        padding: 1.5rem 1rem;
         text-decoration: none;
         &:hover, &:focus, &:active {
-            color: #555;
+            color: rgb(170, 170, 170);
             text-decoration: none;
             -webkit-transition: 0.2s ease-in;
             -moz-transition: 0.2s ease-in;
