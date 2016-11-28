@@ -3,7 +3,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Vast Shadow', Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .RHS-navigation {
@@ -18,8 +19,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     color: #fff;
     h1 {
+        font-size: 42px;
+        font-size: 2.625rem;
+        line-height: 1.25;
+        text-align: center;
+        text-transform: uppercase;
         a {
             color: #f2f2f2;
+            &:hover {
+                color: #f2f2f2;
+            }
         }
     }
     ul {
@@ -33,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
         border-bottom: double 4px #606266;
         color: rgba(255,255,255, 0.7);
         font-size: 15px;
-        font-size: 1.5rem;
+        font-size: 0.9375rem;
         padding-bottom: 8px;
     }
     a {
