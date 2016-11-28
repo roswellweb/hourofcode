@@ -18,12 +18,16 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
     width: 100%;
     color: #fff;
+    div {
+        width: 615px;
+    }
     h1 {
         font-size: 42px;
         font-size: 2.625rem;
         line-height: 1.25;
         text-align: center;
         text-transform: uppercase;
+        margin-bottom: 0;
         a {
             color: #f2f2f2;
             &:hover {
