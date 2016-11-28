@@ -1,0 +1,11 @@
+title: RHS Hour of Code
+description: >
+  The Hour of Code is a global movement aimed at teaching students
+  the joy of Computer Science, encouraging students to learn more
+  about the computers they use every day.
+short: Welcome to the Hour of Code at Roswell High School!
+permalink: "/:title/"
+baseurl: ""
+url: "https://roswell.tech"
+timezone: America/New_York
+markdown: kramdown
