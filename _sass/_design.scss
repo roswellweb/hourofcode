@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Typo Slab Serif';
+    src: url('/fonts/TypoSlabserif-Light-webfont.eot');
+    src: url('/fonts/TypoSlabserif-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/TypoSlabserif-Light-webfont.woff') format('woff'),
+         url('/fonts/TypoSlabserif-Light-webfont.ttf') format('truetype'),
+         url('/fonts/TypoSlabserif-Light-webfont.svg#typoslabserif-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     overflow-y: scroll;
 }
@@ -7,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Vast Shadow', Helvetica, sans-serif;
+    font-family: 'Typo Slab Serif', 'Droid Serif', Georgia, serif;
     font-weight: 400;
 }
 
@@ -27,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0 auto;
     }
     h1 {
+        font-family: 'Vast Shadow', Helvetica, sans-serif;
         font-size: 42px;
         font-size: 2.625rem;
         line-height: 1.25;
@@ -64,10 +76,10 @@ h1, h2, h3, h4, h5, h6 {
         &:hover, &:focus, &:active {
             color: rgb(170, 170, 170);
             text-decoration: none;
-            -webkit-transition: 0.2s ease-in;
-            -moz-transition: 0.2s ease-in;
-            -o-transition: 0.2s ease-in;
-            transition: 0.2s ease-in;
+            -webkit-transition: 0.2s ease-in-out;
+            -moz-transition: 0.2s ease-in-out;
+            -o-transition: 0.2s ease-in-out;
+            transition: 0.2s ease-in-out;
         }
     }
 }
