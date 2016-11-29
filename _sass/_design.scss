@@ -14,12 +14,17 @@ html {
 }
 
 body {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', Georgia serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Typo Slab Serif', 'Droid Serif', Georgia, serif;
     font-weight: 400;
+}
+
+.RHS-navigation div, .RHS-content div {
+    max-width: 615px;
+    margin: 0 auto;
 }
 
 .RHS-navigation {
@@ -65,8 +70,6 @@ h1, h2, h3, h4, h5, h6 {
     p {
         border-bottom: double 4px #606266;
         color: rgba(255,255,255, 0.7);
-        font-size: 15px;
-        font-size: 0.9375rem;
         padding-bottom: 8px;
     }
     a {
@@ -82,4 +85,12 @@ h1, h2, h3, h4, h5, h6 {
             transition: 0.2s ease-in-out;
         }
     }
+    ul, p {
+        font-size: 15px;
+        font-size: 0.9375rem;
+    }
+}
+
+.RHS-content {
+    
 }
