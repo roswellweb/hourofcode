@@ -78,13 +78,13 @@ h1, h2, h3, h4, h5, h6 {
         color: #fff;
         padding:  0.5rem 1rem;
         text-decoration: none;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
         &:hover, &:focus, &:active {
             color: rgb(170, 170, 170);
             text-decoration: none;
-            -webkit-transition: 0.2s ease-in-out;
-            -moz-transition: 0.2s ease-in-out;
-            -o-transition: 0.2s ease-in-out;
-            transition: 0.2s ease-in-out;
         }
     }
     ul, p {
@@ -112,6 +112,26 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 15px;
         font-size: 0.9375rem;
     }
+    hr {
+        border: none;
+        border-bottom: 4px double #dfdfdf;
+        line-height: 42px;
+        margin: 0 0 20px;
+        padding: 0 0 30px;
+    }
+    a {
+        color: #fa4e4e;
+        text-decoration: none;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+        &:hover, &:focus, &:active {
+            color: #555;
+            text-decoration: none;
+        }
+    }
+    
 }
 
 .img-right {
