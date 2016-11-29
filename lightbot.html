@@ -12,6 +12,12 @@ permalink: /lightbot/
         <title>Redirecting you to Lightbot... - RHS Hour of Code</title>
         <meta name="theme-color" content="#6A8455">
         <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-88191318-1']);
+            _gaq.push(['_trackPageview']);
+        </script>
+        <script src="http://www.google-analytics.com/ga.js"></script>
+        <script>
         var lightbotRedirect = function(userAgent) {
             if(/windows phone/i.test(userAgent)) {
                 document.body.innerHTML = "<p>Uh oh. Looks like you're using a Windows Phone. Please look on or play with someone else that has an Android or iOS device!</p>"
