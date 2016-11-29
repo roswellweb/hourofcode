@@ -45,8 +45,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 1rem;
 }
 
-.RHS-navigation div, .RHS-footer div {
+.RHS-navigation div {
+    padding: 0;
+}
+
+.RHS-footer div {
     padding: 0 0.75rem;
+}
+
+.RHS-navigation div, .RHS-footer div {
     @media screen and (max-width: 480px) {
         padding: 0 1.5rem;
     }
