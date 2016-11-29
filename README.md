@@ -9,6 +9,6 @@ We're using:
 5. Normalize.css
 6. Git
 
-And a bunch of custom HTML / CSS.
+And a bunch of custom HTML / CSS. Oh, and some JavaScript.
 
 If you're interested in this kind of stuff, you should take a Computer Science class!
