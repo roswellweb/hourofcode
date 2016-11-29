@@ -9,8 +9,8 @@
     font-style: normal;
 }
 
-::-moz-selection { background: #6A8455; }
-::selection { background: #6A8455; }
+::-moz-selection { background: rgba(#6A8455, 0.5); }
+::selection { background: rgba(#6A8455, 0.5); }
 
 html {
     overflow-y: scroll;
