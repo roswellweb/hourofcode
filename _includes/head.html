@@ -16,7 +16,8 @@
         <link rel="icon" type="image/png" href="/icon.png">
         <meta name="theme-color" content="#6A8455">
         <script>
-            var l = window.location.href+'';
+            // Force a secure connection
+            var l = window.location.href + '';
             if(l.indexOf('http://')==0) {
                 window.location.href = l.replace('http://', 'https://');
             }
