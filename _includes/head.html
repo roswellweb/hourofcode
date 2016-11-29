@@ -24,8 +24,8 @@
                 <nav>
                     <ul>{% assign url = page.url|remove:'index.html' %}<!--
                         --><li {% if url == "/" %}class="active"{% endif %}><a href="/">Home</a></li><!--
-                        --><li {% if url == "/start/" %}class="active"{% endif %}><a href="/start/">Let's Get Started</a></li><!--
-                        --><li {% if url == "/thank-you/" %}class="active"{% endif %}><a href="/thank-you/">Thank You</a></li><!--
+                        --><li {% if url contains "start" %}class="active"{% endif %}><a href="/start/">Let's Get Started</a></li><!--
+                        --><li {% if url contains "thank-you" %}class="active"{% endif %}><a href="/thank-you/">Thank You</a></li><!--
                     --></ul>
                 </nav>
             </div>
