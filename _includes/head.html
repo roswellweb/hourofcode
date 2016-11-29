@@ -23,9 +23,9 @@
                 <p>Welcome to the Hour of Code at Roswell High School</p>
                 <nav>
                     <ul>{% assign url = page.url|remove:'index.html' %}<!--
-                        --><li {% if url == "/" %}class="active"{% endif %}><a href="/">Home</a></li><!--
-                        --><li {% if url contains "start" %}class="active"{% endif %}><a href="/start/">Let's Get Started</a></li><!--
-                        --><li {% if url contains "thank-you" %}class="active"{% endif %}><a href="/thank-you/">Thank You</a></li><!--
+                        --><li><a {% if url == "/" %}class="active"{% endif %} href="/">Home</a></li><!--
+                        --><li><a {% if url contains "start" %}class="active"{% endif %} href="/start/">Let's Get Started</a></li><!--
+                        --><li><a {% if url contains "thank-you" %}class="active"{% endif %} href="/thank-you/">Thank You</a></li><!--
                     --></ul>
                 </nav>
             </div>
