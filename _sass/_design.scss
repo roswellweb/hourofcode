@@ -39,6 +39,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 1.5rem;
 }
 
+.RHS-navigation div, .RHS-footer div {
+    @media screen and (max-width: 480px) {
+        padding: 0 0.75rem;
+    }
+}
+
 .RHS-navigation {
     text-align: center;
     background: #555 url(/darktexture.png);
@@ -116,8 +122,6 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0 0 30px;
     }
     p {
-        margin-bottom: 15px;
-        margin-bottom: 0.9375rem;
         line-height: 1.325rem;
     }
     p, ul {
@@ -167,5 +171,6 @@ h1, h2, h3, h4, h5, h6 {
         color: rgba(255,255,255, 0.7);
         font-size: 15px;
         font-size: 0.9375rem;
+        line-height: 1.325rem;
     }
 }
