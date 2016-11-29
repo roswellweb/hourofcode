@@ -15,14 +15,17 @@ permalink: /lightbot/
         var lightbotRedirect = function(userAgent) {
             if(/windows phone/i.test(userAgent)) {
                 document.body.innerHTML = "<p>Uh oh. Looks like you're using a Windows Phone. Please look on or play with someone else that has an Android or iOS device!</p>"
+                break;
             }
             
             if(/android/i.test(userAgent)) {
                 window.location.replace("https://play.google.com/store/apps/details?id=com.lightbot.lightbothoc");
+                break;
             }
             
             if(/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
                 window.location.replace("https://itunes.apple.com/us/app/light-bot/id657638474");
+                break;
             }
             
             window.location.replace("https://lightbot.com/hocflash.html");
