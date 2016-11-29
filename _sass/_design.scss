@@ -9,6 +9,9 @@
     font-style: normal;
 }
 
+::-moz-selection { background: #6A8455; }
+::selection { background: #6A8455; }
+
 html {
     overflow-y: scroll;
 }
@@ -16,7 +19,13 @@ html {
 body {
     font-family: 'Droid Serif', Georgia serif;
     background: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
+
+.RHS-navigation, .RHS-footer { flex-shrink: 0; }
+.RHS-content { flex: 1 0 auto; }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Typo Slab Serif', 'Droid Serif', Georgia, serif;
@@ -136,7 +145,6 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
     margin: .75em 0 .75em 1.5em;
 }
-
 
 .RHS-footer {
     text-align: center;
