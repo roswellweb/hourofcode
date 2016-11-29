@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .RHS-navigation div, .RHS-content div, .RHS-footer div {
     max-width: 615px;
     margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
 .RHS-navigation {
@@ -103,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .RHS-content {
-    padding: 3.25rem 1rem;
+    padding: 3.25rem 0;
     color: #555;
     h1 {
         text-align: center;
