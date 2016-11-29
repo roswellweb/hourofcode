@@ -25,6 +25,12 @@ body {
     height: 100vh;
 }
 
+p {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.325rem;
+}
+
 .RHS-navigation, .RHS-footer { flex-shrink: 0; }
 .RHS-content { flex: 1 0 auto; }
 
@@ -104,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
             color: rgb(170, 170, 170);
         }
     }
-    ul, p {
+    ul {
         font-size: 15px;
         font-size: 0.9375rem;
     }
@@ -121,9 +127,6 @@ h1, h2, h3, h4, h5, h6 {
         line-height: 42px;
         margin: 0 0 20px;
         padding: 0 0 30px;
-    }
-    p {
-        line-height: 1.325rem;
     }
     p, ul {
         font-size: 15px;
@@ -170,8 +173,5 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     p {
         color: rgba(255,255,255, 0.7);
-        font-size: 15px;
-        font-size: 0.9375rem;
-        line-height: 1.325rem;
     }
 }
