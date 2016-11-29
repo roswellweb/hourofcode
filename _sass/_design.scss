@@ -95,6 +95,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     li {
         display: inline-block;
+        @media screen and (min-width: 480px) {
+            display: block;
+        }
     }
     p {
         border-bottom: double 4px #606266;
