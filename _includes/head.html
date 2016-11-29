@@ -15,6 +15,12 @@
         <link rel="apple-itouch-icon" href="/icon.png">
         <link rel="icon" type="image/png" href="/icon.png">
         <meta name="theme-color" content="#6A8455">
+        <script>
+            var l = window.location.href+'';
+            if(l.indexOf('http://')==0) {
+                window.location.href = l.replace('http://', 'https://');
+            }
+        </script>
     </head>
     <body>
         <header class="RHS-navigation">
