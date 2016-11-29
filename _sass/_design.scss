@@ -113,11 +113,10 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 0.9375rem;
     }
     hr {
-        border: none;
-        border-bottom: 4px double #dfdfdf;
-        line-height: 42px;
-        margin: 0 0 20px;
-        padding: 0 0 30px;
+        background-color: #ccc;
+        border: 0;
+        height: 1px;
+        margin-bottom: 1.5em;
     }
     a {
         color: #fa4e4e;
@@ -131,7 +130,9 @@ h1, h2, h3, h4, h5, h6 {
             text-decoration: none;
         }
     }
-    
+    li {
+        line-height: 1.8rem;
+    }
 }
 
 .img-right {
