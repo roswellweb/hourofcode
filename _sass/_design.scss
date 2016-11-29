@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-.RHS-navigation div, .RHS-content div {
+.RHS-navigation div, .RHS-content div, .RHS-footer div {
     max-width: 615px;
     margin: 0 auto;
 }
@@ -39,10 +39,6 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
     width: 100%;
     color: #fff;
-    div {
-        max-width: 615px;
-        margin: 0 auto;
-    }
     h1 {
         font-family: 'Vast Shadow', Helvetica, sans-serif;
         font-size: 42px;
@@ -139,4 +135,25 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
     float: right;
     margin: .75em 0 .75em 1.5em;
+}
+
+
+.RHS-footer {
+    text-align: center;
+    background: #555 url(/darktexture.png);
+    background-size: 50px auto;
+    padding: 1.5rem 0;
+    position: relative;
+    box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+    -moz-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+    -webkit-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+    width: 100%;
+    color: #fff;
+    p {
+        border-bottom: double 4px #606266;
+        color: rgba(255,255,255, 0.7);
+        padding-bottom: 8px;
+        font-size: 15px;
+        font-size: 0.9375rem;
+    }
 }
