@@ -22,10 +22,10 @@
                 <h1><a href="/">RHS Hour of Code</a></h1>
                 <p>Welcome to the Hour of Code at Roswell High School</p>
                 <nav>
-                    <ul><!--
-                        --><li><a href="/">Home</a></li><!--
-                        --><li><a href="/start/">Let's Get Started</a></li><!--
-                        --><li><a href="/thank-you/">Thank You</a></li><!--
+                    <ul>{% assign url = page.url|remove:'index.html' %}<!--
+                        --><li {% if url == "/" %}class="active"{% endif %}><a href="/">Home</a></li><!--
+                        --><li {% if url == "/start/" %}class="active"{% endif %}><a href="/start/">Let's Get Started</a></li><!--
+                        --><li {% if url == "/thank-you/" %}class="active"{% endif %}><a href="/thank-you/">Thank You</a></li><!--
                     --></ul>
                 </nav>
             </div>
