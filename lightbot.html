@@ -1,0 +1,40 @@
+---
+layout: blank
+permalink: /lightbot/
+---
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Redirecting you to Lightbot... - RHS Hour of Code</title>
+        <meta name="theme-color" content="#6A8455">
+        <script>
+        var lightbotRedirect = function(userAgent) {
+            if(/windows phone/i.test(userAgent)) {
+                document.body.innerHTML = "<p>Uh oh. Looks like you're using a Windows Phone. Please look on or play with someone else that has an Android or iOS device!</p>"
+            }
+            
+            if(/android/i.test(userAgent)) {
+                window.location.replace("https://play.google.com/store/apps/details?id=com.lightbot.lightbothoc");
+            }
+            
+            if(/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.replace("https://itunes.apple.com/us/app/light-bot/id657638474");
+            }
+            
+            window.location.replace("https://lightbot.com/hocflash.html");
+            
+            //document.body.innerHTML = "<p>Sorry. We couldn't determine your operating system. Please open your app store and search for 'Lightbot' in order to download the app.</p><p>If your device does not have the Lightbot app, you will need to play with a friend that has iOS or Android on their device.</p>"
+            
+        }
+        var ua = navigator.userAgent || navigator.vendor || window.opera;
+        lightbotRedirect(ua);
+        </script>
+    </head>
+    <body>
+        <p>Click here if you are not redirected automatically.</p>
+    </body>
+</html>
